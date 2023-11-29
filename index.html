@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="note-book-app">
+      <div class="app-name">
+        <h1>Note Book</h1>
+      </div>
+      <div class="adding-note">
+        <button id="add-btn">Create New Note</button>
+      </div>
+    </div>
+
+    <div class="note-form">
+      <div class="form-name">
+        <h1>Note Info</h1>
+      </div>
+      <div class="form-data">
+        <div class="note-mode">
+          <div class="quote-mode">
+            <label for="quote">Quote</label>
+            <input type="radio" id="quote" name="mode" value="Quote"/>
+          </div>
+          <div class="life-learning">
+            <label for="life-learning">Life learning</label>
+            <input type="radio" id="life-learning" name="mode" value="Life learning"/>
+          </div>
+          <div class="plane">
+            <label for="plane">plane</label>
+            <input type="radio" id="plane" name="mode" value="Plane"/>
+          </div>
+        </div>
+        <div class="note-importance">
+          <select name="importance" id="importance">
+            <option value="very important 👌">Very Important</option>
+            <option value="important">Important ✔</option>
+            <option value="okay 😏">Okay </option>
+          </select>
+        </div>
+
+        <div class="input-fields">
+          <div class="subject">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" />
+          </div>
+
+          <div class="note">
+            <label for="note">Note</label>
+            <input type="text" id="note" />
+          </div>
+        </div>
+      </div>
+      <button class="add-to-book">Add to Book</button>
+    </div>
+
+    <div class="notes-container">
+    
+     
+      </div>
+    </div>
+  </body>
+</html>
